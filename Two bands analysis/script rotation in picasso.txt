@@ -1,0 +1,1 @@
+from numpy import *; a = 30/360*2*pi; x-=256; y-=256; x_ = x.copy(); y_ = y.copy(); x[:] = x_*cos(a) - y_*sin(a); y[:] = x_*sin(a) + y_*cos(a); x+=256; y+=256
